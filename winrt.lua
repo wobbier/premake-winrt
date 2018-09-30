@@ -201,6 +201,7 @@
 		end
 		p.vstudio.vc2010.element("ApplicationType", nil, type)
 		p.vstudio.vc2010.element("ApplicationTypeRevision", nil, revision)
+		p.vstudio.vc2010.element("WindowsTargetPlatformVersion", nil, "10.0.14393.0")
 	end
 
 	function m.defaultLanguage(prj)
